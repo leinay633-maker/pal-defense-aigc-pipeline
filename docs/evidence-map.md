@@ -20,14 +20,23 @@
 
 ```powershell
 npm install
-npm run pipeline:dry-run
-npm run build
+npm run verify
 ```
 
-`pipeline:dry-run` 应输出：
+其中 `pipeline:dry-run` 应输出：
 
 ```text
 Dry-run complete: 53/53 assets committed, 1575/1800 credits.
 ```
 
 生成的 `pipeline/reports/quality_gate_report.json` 可以逐资产检查每一道自动 gate。
+
+## 工程化检查
+
+| 检查 | 位置 |
+| --- | --- |
+| 证据一致性 | `scripts/check-evidence.mjs` |
+| Python 单元测试 | `tests/test_pipeline.py` |
+| CI / Pages 发布 | `.github/workflows/deploy.yml` |
+| 本地运行说明 | `docs/runbook.md` |
+| 架构边界 | `docs/architecture.md` |

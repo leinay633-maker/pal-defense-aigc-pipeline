@@ -13,7 +13,7 @@
 | Meshy credits | 1575 |
 | 平均 credits | 29.7 / asset |
 | 状态 | 53 个 Meshy summary 均为 SUCCEEDED |
-| 展示方式 | React Review Dashboard + evidence map + dry-run Pipeline |
+| 运行方式 | React Review Dashboard + evidence map + dry-run Pipeline |
 
 ## 仓库内容
 
@@ -27,14 +27,18 @@
 | `pipeline/config/` | 资产清单、预算、Prompt 模板、Unity 禁止清单 |
 | `pipeline/orchestrator.py` | 公开版 dry-run 状态机 |
 | `pipeline/gates.py` | 自动质量门槛检查 |
+| `scripts/check-evidence.mjs` | 证据一致性检查 |
+| `tests/` | Python dry-run 与 gate 单元测试 |
+| `.github/workflows/deploy.yml` | GitHub Pages 构建与发布流程 |
 | `docs/evidence-map.md` | 知识库主张到公开文件的映射 |
+| `docs/architecture.md` | 公开工程架构说明 |
+| `docs/runbook.md` | 本地运行、证据刷新和 CI 说明 |
 
 ## 本地验证
 
 ```powershell
 npm install
-npm run pipeline:dry-run
-npm run build
+npm run verify
 npm run dev
 ```
 
@@ -44,7 +48,15 @@ npm run dev
 
 ```powershell
 npm run refresh:evidence -- --unity-root "D:\OneDrive\GameEXE\新建文件夹\AVZ_YesterdayNight_86abe3b"
+npm run verify
 ```
+
+`npm run verify` 会依次执行：
+
+1. `check:evidence`：检查 metrics、manifest、summary、public images 和公开措辞边界。
+2. `test:pipeline`：运行 Python 单元测试。
+3. `pipeline:dry-run`：生成 `pipeline/reports/` 下的 dry-run 报告。
+4. `build`：运行 TypeScript 与 Vite 构建。
 
 ## Pipeline 设计
 

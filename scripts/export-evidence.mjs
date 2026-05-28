@@ -183,7 +183,7 @@ async function readAsset(summaryPath) {
 function renderManifest(assets) {
   const lines = [
     '# Generated from the local Unity project by scripts/export-evidence.mjs.',
-    '# This is portfolio evidence, not a commercial production manifest.',
+    '# This public manifest is a lightweight export, not the full production Unity project.',
   ];
   for (const asset of assets) {
     lines.push(`- task_id: ${yamlValue(asset.id)}`);
@@ -206,7 +206,7 @@ function renderManifest(assets) {
 }
 
 function renderPromptTemplates() {
-  return `# Prompt template boundaries used for the portfolio dry-run.
+  return `# Prompt template boundaries used for the public dry-run.
 forest_v3: "single game-ready 3D asset concept, stylized low-poly {descriptor}, forest palette, readable silhouette, no text, no people, no logo"
 snow_v3: "single game-ready 3D asset concept, stylized low-poly {descriptor}, snow biome, cool palette, thick silhouette, no text, no people, no logo"
 volcano_v3: "single game-ready 3D asset concept, stylized low-poly {descriptor}, volcano biome, lava glow, high contrast, no text, no people, no logo"

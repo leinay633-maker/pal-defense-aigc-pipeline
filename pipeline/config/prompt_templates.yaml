@@ -1,4 +1,4 @@
-# Prompt template boundaries used for the portfolio dry-run.
+# Prompt template boundaries used for the public dry-run.
 forest_v3: "single game-ready 3D asset concept, stylized low-poly {descriptor}, forest palette, readable silhouette, no text, no people, no logo"
 snow_v3: "single game-ready 3D asset concept, stylized low-poly {descriptor}, snow biome, cool palette, thick silhouette, no text, no people, no logo"
 volcano_v3: "single game-ready 3D asset concept, stylized low-poly {descriptor}, volcano biome, lava glow, high contrast, no text, no people, no logo"

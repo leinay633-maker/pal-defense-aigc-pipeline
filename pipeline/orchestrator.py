@@ -127,14 +127,14 @@ def run(manifest_path: Path, budget_path: Path, out_path: Path) -> int:
     task_records = []
     gate_reports = []
     for asset in assets:
-      gates = run_asset_gates(asset, repo_root)
-      task_records.append(task_record(asset, gates, retry_cap))
-      gate_reports.append({
-          "task_id": asset["task_id"],
-          "asset_name": asset["asset_name"],
-          "passed": all(item.passed for item in gates),
-          "gates": gate_payload(gates),
-      })
+        gates = run_asset_gates(asset, repo_root)
+        task_records.append(task_record(asset, gates, retry_cap))
+        gate_reports.append({
+            "task_id": asset["task_id"],
+            "asset_name": asset["asset_name"],
+            "passed": all(item.passed for item in gates),
+            "gates": gate_payload(gates),
+        })
 
     total_credits = sum(int(asset["credits_used"]) for asset in assets)
     credit_limit = int(budget.get("total_credit_limit", 0))
@@ -167,7 +167,7 @@ def run(manifest_path: Path, budget_path: Path, out_path: Path) -> int:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Run the portfolio-safe AIGC Pipeline dry-run.")
+    parser = argparse.ArgumentParser(description="Run the public AIGC Pipeline dry-run.")
     parser.add_argument("--dry-run", action="store_true", help="Required marker: this sample does not call external APIs.")
     parser.add_argument("--manifest", default="pipeline/config/asset_manifest.yaml")
     parser.add_argument("--budget", default="pipeline/config/budget_config.yaml")
@@ -175,11 +175,10 @@ def main() -> int:
     args = parser.parse_args()
 
     if not args.dry_run:
-        parser.error("Only --dry-run mode is implemented in the public portfolio sample.")
+        parser.error("Only --dry-run mode is implemented in the public sample.")
 
     return run(Path(args.manifest), Path(args.budget), Path(args.out))
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

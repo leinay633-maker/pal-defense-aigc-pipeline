@@ -3,12 +3,17 @@
   "version": "0.1.0",
   "private": false,
   "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
   "scripts": {
     "refresh:evidence": "node scripts/export-evidence.mjs",
+    "check:evidence": "node scripts/check-evidence.mjs",
     "pipeline:dry-run": "python -m pipeline.orchestrator --dry-run --manifest pipeline/config/asset_manifest.yaml --budget pipeline/config/budget_config.yaml --out pipeline/reports/run_report.json",
+    "test:pipeline": "python -m unittest discover -s tests",
     "dev": "vite --host 127.0.0.1",
     "build": "tsc -b && vite build",
-    "verify": "npm run pipeline:dry-run && npm run build",
+    "verify": "npm run check:evidence && npm run test:pipeline && npm run pipeline:dry-run && npm run build",
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {
