@@ -109,6 +109,8 @@ function publicAssetPath(urlPath) {
 async function assertNoPositioningTerms() {
   const blocked = [
     'port' + 'folio',
+    'One' + 'Drive',
+    'AVZ' + '_YesterdayNight',
     String.fromCodePoint(0x4f5c, 0x54c1, 0x96c6),
     String.fromCodePoint(0x6c42, 0x804c),
     String.fromCodePoint(0x6280, 0x672f, 0x9762, 0x8bd5),
@@ -118,6 +120,7 @@ async function assertNoPositioningTerms() {
   ];
   const roots = [
     path.join(repoRoot, 'README.md'),
+    path.join(repoRoot, 'NOTICE.md'),
     path.join(repoRoot, 'docs'),
     path.join(repoRoot, 'pipeline'),
     path.join(repoRoot, 'scripts', 'export-evidence.mjs'),
@@ -158,6 +161,7 @@ async function main() {
   assert(summaryFiles.length === metrics.totalAssets, `summary count ${summaryFiles.length} does not match metrics`);
   assert(generatedAssets.length === metrics.totalAssets, `generated TS has ${generatedAssets.length} assets`);
   assert(inventory.assets.length === metrics.totalAssets, `source inventory has ${inventory.assets.length} assets`);
+  assert(inventory.sourceRootLabel === 'local-unity-export', 'source inventory should use a portable sourceRootLabel');
   assert(generatedSummary.totalCredits === metrics.totalCredits, 'generated summary credits diverge from metrics');
 
   const ids = new Set();

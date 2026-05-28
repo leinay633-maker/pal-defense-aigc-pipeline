@@ -11,6 +11,14 @@ class GateResult:
     detail: str
 
 
+THEME_NAME_PREFIXES = {
+    "forest": ("forest_",),
+    "snow": ("snow_", "snowman_", "frozen_", "frosted_", "ice_"),
+    "volcano": ("volcano_", "lava_", "magma_", "obsidian_", "ember_", "charred_", "steam_"),
+    "base": ("base_",),
+}
+
+
 def parse_bool(value: object) -> bool:
     if isinstance(value, bool):
         return value
@@ -21,6 +29,13 @@ def expected_file_exists(repo_root: Path, relative_path: str | None) -> bool:
     if not relative_path:
         return False
     return (repo_root / relative_path).is_file()
+
+
+def theme_name_compatible(asset_name: str, biome: str) -> bool:
+    prefixes = THEME_NAME_PREFIXES.get(biome)
+    if not prefixes:
+        return False
+    return asset_name.startswith(prefixes)
 
 
 def run_asset_gates(asset: dict[str, object], repo_root: Path) -> list[GateResult]:
@@ -57,8 +72,8 @@ def run_asset_gates(asset: dict[str, object], repo_root: Path) -> list[GateResul
             f"fbx={asset.get('has_fbx')} glb={asset.get('has_glb')} material={asset.get('has_material')}",
         ),
         GateResult(
-            "name_matches_biome",
-            asset_name.startswith(f"{biome}_") or biome in {"base", "snow", "volcano"},
+            "theme_name_compatible",
+            theme_name_compatible(asset_name, biome),
             f"{asset_name} / {biome}",
         ),
         GateResult(
@@ -68,4 +83,3 @@ def run_asset_gates(asset: dict[str, object], repo_root: Path) -> list[GateResul
         ),
     ]
     return results
-

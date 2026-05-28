@@ -5,7 +5,6 @@ import { fileURLToPath } from 'node:url';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(scriptDir, '..');
-const defaultUnityRoot = path.resolve(repoRoot, '..', 'AVZ_YesterdayNight_86abe3b');
 
 const args = new Map();
 for (let i = 2; i < process.argv.length; i += 1) {
@@ -16,7 +15,33 @@ for (let i = 2; i < process.argv.length; i += 1) {
   }
 }
 
-const unityRoot = path.resolve(args.get('unity-root') ?? defaultUnityRoot);
+function printUsage() {
+  console.log(`Usage:
+  npm run refresh:evidence -- --unity-root "<path-to-local-unity-project>"
+
+Options:
+  --unity-root     Unity project root containing Assets/_PalReskin/MeshyImported
+  --source-label   Optional portable label stored in source-file-inventory.json
+
+Environment:
+  PAL_DEFENSE_UNITY_ROOT can be used instead of --unity-root
+`);
+}
+
+const unityRootInput = args.get('unity-root') ?? process.env.PAL_DEFENSE_UNITY_ROOT;
+if (args.has('help')) {
+  printUsage();
+  process.exit(0);
+}
+
+if (!unityRootInput) {
+  console.error('Unity root is required. Pass --unity-root or set PAL_DEFENSE_UNITY_ROOT.');
+  printUsage();
+  process.exit(1);
+}
+
+const unityRoot = path.resolve(unityRootInput);
+const sourceRootLabel = args.get('source-label') ?? 'local-unity-export';
 const meshyRoot = path.join(unityRoot, 'Assets', '_PalReskin', 'MeshyImported');
 const evidenceRoot = path.join(repoRoot, 'evidence');
 const summariesRoot = path.join(evidenceRoot, 'meshy-summaries');
@@ -276,7 +301,7 @@ async function main() {
   await fs.writeFile(forbiddenPath, renderForbiddenPaths(), 'utf8');
   await fs.writeFile(path.join(evidenceRoot, 'metrics.json'), `${JSON.stringify(summary, null, 2)}\n`, 'utf8');
   await fs.writeFile(path.join(evidenceRoot, 'source-file-inventory.json'), `${JSON.stringify({
-    unityRoot: path.basename(unityRoot),
+    sourceRootLabel,
     generatedAt: summary.generatedAt,
     assets: assets.map(({ sourceFiles, ...asset }) => ({
       asset: asset.asset,

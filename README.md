@@ -30,14 +30,15 @@
 | `scripts/check-evidence.mjs` | 证据一致性检查 |
 | `tests/` | Python dry-run 与 gate 单元测试 |
 | `.github/workflows/deploy.yml` | GitHub Pages 构建与发布流程 |
-| `docs/evidence-map.md` | 知识库主张到公开文件的映射 |
+| `docs/evidence-map.md` | 项目主张到公开文件的映射 |
 | `docs/architecture.md` | 公开工程架构说明 |
 | `docs/runbook.md` | 本地运行、证据刷新和 CI 说明 |
+| `NOTICE.md` | 代码与生成证据的复用边界 |
 
 ## 本地验证
 
 ```powershell
-npm install
+npm ci
 npm run verify
 npm run dev
 ```
@@ -47,7 +48,7 @@ npm run dev
 如需从 Unity 工程重新导出证据：
 
 ```powershell
-npm run refresh:evidence -- --unity-root "D:\OneDrive\GameEXE\新建文件夹\AVZ_YesterdayNight_86abe3b"
+npm run refresh:evidence -- --unity-root "<path-to-local-unity-project>"
 npm run verify
 ```
 
@@ -79,3 +80,7 @@ asset manifest
 - 我没有训练 3D 生成模型，重点是把现成 AIGC 能力工程化接入工具链。
 - 公开仓库里的 dry-run Pipeline 是 public dry-run sample，用来验证架构和数据流，不伪装成原始生产脚本。
 - 完整 Unity 工程、大体积 build、视频素材和第三方模型源文件不放入公开仓库。
+
+## License
+
+Source code and documentation use the MIT license. Generated evidence files and images are included for project traceability; see `NOTICE.md`.

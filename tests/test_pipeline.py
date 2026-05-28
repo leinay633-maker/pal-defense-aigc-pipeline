@@ -1,9 +1,11 @@
 import json
 import tempfile
 import unittest
+from contextlib import redirect_stdout
+from io import StringIO
 from pathlib import Path
 
-from pipeline.gates import run_asset_gates
+from pipeline.gates import run_asset_gates, theme_name_compatible
 from pipeline.orchestrator import load_budget, load_manifest, run
 
 
@@ -38,9 +40,11 @@ class PipelineDryRunTests(unittest.TestCase):
                 self.assertTrue(all(gate.passed for gate in gates), [gate for gate in gates if not gate.passed])
 
     def test_dry_run_writes_reports(self):
+        metrics = json.loads(METRICS.read_text(encoding="utf-8"))
         with tempfile.TemporaryDirectory() as temp_dir:
             report_path = Path(temp_dir) / "run_report.json"
-            exit_code = run(MANIFEST, BUDGET, report_path)
+            with redirect_stdout(StringIO()):
+                exit_code = run(MANIFEST, BUDGET, report_path)
 
             self.assertEqual(exit_code, 0)
             report = json.loads(report_path.read_text(encoding="utf-8"))
@@ -48,11 +52,19 @@ class PipelineDryRunTests(unittest.TestCase):
             gate_report = json.loads((report_path.parent / "quality_gate_report.json").read_text(encoding="utf-8"))
 
             self.assertEqual(report["mode"], "dry-run")
-            self.assertEqual(report["total_assets"], 53)
+            self.assertEqual(report["total_assets"], metrics["totalAssets"])
             self.assertEqual(report["manual_queue_assets"], 0)
             self.assertTrue(report["budget_passed"])
             self.assertEqual(len(artifacts), report["total_assets"])
             self.assertEqual(len(gate_report), report["total_assets"])
+
+    def test_theme_name_compatibility_handles_alias_prefixes(self):
+        self.assertTrue(theme_name_compatible("forest_old_well", "forest"))
+        self.assertTrue(theme_name_compatible("frozen_lantern_post", "snow"))
+        self.assertTrue(theme_name_compatible("ice_crystal_cluster", "snow"))
+        self.assertTrue(theme_name_compatible("lava_pool_small", "volcano"))
+        self.assertTrue(theme_name_compatible("obsidian_forge", "volcano"))
+        self.assertFalse(theme_name_compatible("forest_old_well", "snow"))
 
 
 if __name__ == "__main__":

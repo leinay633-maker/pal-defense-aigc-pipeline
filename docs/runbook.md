@@ -24,9 +24,11 @@ The dashboard runs at `http://127.0.0.1:5174/` by default.
 ## Refresh Evidence From The Local Unity Project
 
 ```powershell
-npm run refresh:evidence -- --unity-root "D:\OneDrive\GameEXE\新建文件夹\AVZ_YesterdayNight_86abe3b"
+npm run refresh:evidence -- --unity-root "<path-to-local-unity-project>"
 npm run verify
 ```
+
+You can also set `PAL_DEFENSE_UNITY_ROOT` instead of passing `--unity-root`.
 
 The export script regenerates:
 

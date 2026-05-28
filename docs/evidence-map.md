@@ -2,7 +2,7 @@
 
 这份文件把项目说明里的关键主张映射到公开仓库中可检查的证据。公开仓库只保留轻量证据和可运行样例，不上传完整 Unity 工程。
 
-| 知识库主张 | 公开证据 |
+| 项目主张 | 公开证据 |
 | --- | --- |
 | 约 53 个资产进入 Unity 工程 | `evidence/meshy-summaries/` 下 53 个 summary；`evidence/metrics.json` 的 `totalAssets` |
 | 覆盖 forest / snow / volcano 三个 biome | `pipeline/config/asset_manifest.yaml` 的 `biome` 字段；Dashboard 的 theme filter |
