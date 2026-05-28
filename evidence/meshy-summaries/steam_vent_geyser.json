@@ -1,0 +1,8 @@
+{
+  "asset": "steam_vent_geyser",
+  "text_to_image_task": "019e298e-343d-756b-a276-33363ccdc899",
+  "image_to_3d_task": "019e2995-0ed3-7dad-b58b-d5964e835e8b",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly volcanic steam vent erupting from cracked rock, dark cracked stone base with white-yellow sulfurous steam plume rising up, ember speckles around opening, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

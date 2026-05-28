@@ -1,0 +1,8 @@
+{
+  "asset": "volcano_research_outpost",
+  "text_to_image_task": "019e298d-e201-7c84-8b43-cd8052cd7c34",
+  "image_to_3d_task": "019e2990-825c-75d2-8841-64d18e6dfbd7",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly volcano research outpost for a creature survival tower defense lava camp, small reinforced cabin on dark basalt platform, glowing molten energy panels with orange-red light seeping through metal grates, heat shield plating, small antenna with scorch marks, vented chimney with rising heat haze, warm amber window lights, lava-rune accents on door, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

@@ -1,0 +1,8 @@
+{
+  "asset": "forest_wildflower_patch",
+  "text_to_image_task": "019e2a8f-66e7-714d-b3ef-35fd040138c8",
+  "image_to_3d_task": "019e2ac4-9ade-7f5b-912f-34a17a0be73f",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly patch of mixed forest wildflowers and tall grass, varied flowers in white, yellow, and soft pink, tall green grass blades, low ground prop, natural irregular shape, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

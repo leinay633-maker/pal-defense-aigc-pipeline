@@ -1,0 +1,8 @@
+{
+  "asset": "snow_supply_cache",
+  "text_to_image_task": "019e27b5-2f8d-7453-80d5-a99298bed018",
+  "image_to_3d_task": "019e27b5-bc13-7471-b568-1eeba9fbbe67",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly snow supply cache for a creature survival tower defense winter camp, stacked wooden crates partially buried in snow drift, tied canvas tarp frozen stiff, frosted rope, teal-glowing energy crate on top, small icicle tendrils, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

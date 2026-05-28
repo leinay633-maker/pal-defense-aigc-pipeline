@@ -1,0 +1,8 @@
+{
+  "asset": "forest_pal_statue_overgrown",
+  "text_to_image_task": "019e2b0a-e05a-7c0b-819c-835f90b87f63",
+  "image_to_3d_task": "019e2b0c-a8d6-7db1-a83d-176849700db6",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly ancient stone pal creature statue overgrown with moss and vines, weathered stylized pal-creature carved in stone, thick green moss covering shoulders and head, climbing vines wrapping around body, small mushrooms at base, faded carved patterns, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

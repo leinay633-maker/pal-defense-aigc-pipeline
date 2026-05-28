@@ -1,0 +1,8 @@
+{
+  "asset": "snow_command_shrine",
+  "text_to_image_task": "019e27ae-37df-7644-9ef4-9e377d733e41",
+  "image_to_3d_task": "019e27ae-8681-71e6-b774-f284b0828b58",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly snow command shrine for a creature survival tower defense winter camp, small ornate stone shrine with frost-covered carved totems, hanging frozen bells, teal banner whipping in cold wind, snow piled at base, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

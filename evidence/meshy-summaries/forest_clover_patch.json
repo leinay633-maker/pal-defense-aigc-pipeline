@@ -1,0 +1,8 @@
+{
+  "asset": "forest_clover_patch",
+  "text_to_image_task": "019e2b0a-6a07-7bf1-83fa-08415f8e9c64",
+  "image_to_3d_task": "019e2b0c-65d0-7f62-ae61-4bb138f9a6ce",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly patch of fresh green clovers with tall grass, dense layered green clover leaves, white clover flowers, scattered tall grass blades, irregular ground prop shape, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

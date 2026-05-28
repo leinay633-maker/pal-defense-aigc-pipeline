@@ -1,0 +1,10 @@
+{
+  "asset": "forest_guardian_gate",
+  "image_to_3d_task": "019e257b-03f3-760a-bb14-4a46278f7790",
+  "prompt": "Stylized low-poly forest pal-tech guardian gate and watchpost, mossy stone pylons, wooden platform, teal force-field arch, warm wood and cyan energy, hand-painted PBR.",
+  "concept": "forest_guardian_gate_concept.png",
+  "submitted_at": "2026-05-14T15:54:33",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "downloaded_at": "2026-05-14T16:01:41"
+}

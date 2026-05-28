@@ -1,0 +1,26 @@
+{
+  "name": "pal-defense-aigc-pipeline-portfolio",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "refresh:evidence": "node scripts/export-evidence.mjs",
+    "pipeline:dry-run": "python -m pipeline.orchestrator --dry-run --manifest pipeline/config/asset_manifest.yaml --budget pipeline/config/budget_config.yaml --out pipeline/reports/run_report.json",
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "verify": "npm run pipeline:dry-run && npm run build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "lucide-react": "^0.554.0",
+    "vite": "^7.2.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "asset": "frozen_crystal_forge",
+  "text_to_image_task": "019e27b1-3d1c-75d1-b7d1-34072d60fbd9",
+  "image_to_3d_task": "019e27b1-8d97-75de-a3bb-27b4287d989a",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly frozen crystal forge for a creature survival tower defense winter camp, stone forge half-encased in ice, bright cyan-blue energy crystal pulsing inside, frost spilling outward, chimney capped with icicle, anvil dusted with snow, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

@@ -1,0 +1,8 @@
+{
+  "asset": "forest_pine_grove",
+  "text_to_image_task": "019e2a8f-2b2c-714b-9e70-be7391390246",
+  "image_to_3d_task": "019e2aae-ae72-7766-8907-3fc4e6eb2882",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly small cluster of three tall pine trees, layered evergreen branches, dark green needles, brown straight trunks, single combined moss base, varied heights for natural grouping, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

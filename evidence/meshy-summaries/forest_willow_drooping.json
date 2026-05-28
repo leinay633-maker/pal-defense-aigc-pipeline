@@ -1,0 +1,8 @@
+{
+  "asset": "forest_willow_drooping",
+  "text_to_image_task": "019e2b0a-4f82-7f2c-b35c-63be66fc83e7",
+  "image_to_3d_task": "019e2b0c-526b-715d-9366-4a9dd20a806b",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly tall weeping willow tree with drooping branches, long curtain-like branches hanging down, soft green leaves, twisted trunk, slight asymmetry, mossy roots at base, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

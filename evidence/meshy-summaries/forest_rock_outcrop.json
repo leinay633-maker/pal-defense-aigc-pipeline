@@ -1,0 +1,8 @@
+{
+  "asset": "forest_rock_outcrop",
+  "text_to_image_task": "019e2a8f-5627-714c-a532-8470c68898ce",
+  "image_to_3d_task": "019e2aae-ddaa-7545-8809-69779e0f9401",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly rocky outcrop with embedded crystals, jagged gray-brown rock formation, small purple-blue crystal clusters in crevices, moss patches around base, sun-catching faceted surfaces, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

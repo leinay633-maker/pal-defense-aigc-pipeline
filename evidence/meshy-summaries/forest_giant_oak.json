@@ -1,0 +1,8 @@
+{
+  "asset": "forest_giant_oak",
+  "text_to_image_task": "019e2a8f-2230-7482-bb20-b3ccffc61b22",
+  "image_to_3d_task": "019e2a92-109a-71dc-9e78-f734043d508f",
+  "status": "SUCCEEDED",
+  "consumed_credits": 15,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly massive ancient oak tree, gnarled twisted trunk with deep bark texture, sprawling canopy of vibrant green leaves, moss patches on trunk, exposed root system at base, sun-dappled foliage, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

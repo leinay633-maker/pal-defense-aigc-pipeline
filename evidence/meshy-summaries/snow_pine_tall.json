@@ -1,0 +1,8 @@
+{
+  "asset": "snow_pine_tall",
+  "text_to_image_task": "019e278a-a9dc-7ee4-ba81-5a056eee77cf",
+  "image_to_3d_task": "019e278a-f8ac-78e5-8043-55f2df12ab3a",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly tall snow-covered fir tree, layered evergreen branches heavy with snow, slightly drooping under weight, brown trunk peeking from snow base, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

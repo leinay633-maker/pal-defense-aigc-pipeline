@@ -1,0 +1,8 @@
+{
+  "asset": "forest_stacked_firewood",
+  "text_to_image_task": "019e2b0a-90c4-7bf8-9dab-75973af9925d",
+  "image_to_3d_task": "019e2b0c-8181-7daf-999a-96b7963b378c",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly neatly stacked pile of chopped firewood, rough-cut log ends visible, varied wood tones, slight moss on bottom logs, twine wrapping around stack, scattered woodchips at base, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

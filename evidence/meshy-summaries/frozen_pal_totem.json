@@ -1,0 +1,8 @@
+{
+  "asset": "frozen_pal_totem",
+  "text_to_image_task": "019e27c0-9a02-7784-a3c3-bd98f0cae79b",
+  "image_to_3d_task": "019e27c0-ea08-7eeb-ae94-69bec113d1d3",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly short stylized stone totem carved with abstract creature face, frost coating crevices, blue moss tufts at base, small icicles dangling from chin and ears, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

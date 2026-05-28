@@ -1,0 +1,10 @@
+{
+  "asset": "forest_command_shrine",
+  "image_to_3d_task": "019e257b-35af-7610-b3a6-2a50d58677e8",
+  "prompt": "Stylized low-poly forest command shrine base terminal, circular stone dais, wooden ribs, cyan holographic map projector, moss and teal energy cables, hand-painted PBR.",
+  "concept": "forest_command_shrine_concept.png",
+  "submitted_at": "2026-05-14T15:54:38",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "downloaded_at": "2026-05-14T16:01:35"
+}

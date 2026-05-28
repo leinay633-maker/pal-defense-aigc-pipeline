@@ -1,0 +1,8 @@
+{
+  "asset": "forest_pal_burrow",
+  "text_to_image_task": "019e2b0a-77f3-7112-b04d-b6eadebac3be",
+  "image_to_3d_task": "019e2b0c-6ef1-7c50-992b-2928a6eb78c2",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly stylized pal creature burrow entrance, dark round hole carved into mossy earth mound, scattered footprints around opening, wooden support beams, claw marks, small egg shells nearby, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

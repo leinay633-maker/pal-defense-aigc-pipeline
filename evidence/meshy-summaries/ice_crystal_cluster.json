@@ -1,0 +1,8 @@
+{
+  "asset": "ice_crystal_cluster",
+  "text_to_image_task": "019e27a2-5e47-749b-974a-cf9407406eb5",
+  "image_to_3d_task": "019e27a2-f09a-722c-baaf-8040d7aa908f",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly cluster of jagged translucent ice crystals erupting from snowy base, blue-green internal teal glow, sharp angular shards of varying heights, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

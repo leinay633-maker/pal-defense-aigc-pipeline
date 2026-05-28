@@ -1,0 +1,8 @@
+{
+  "asset": "ice_spike_jagged",
+  "text_to_image_task": "019e27a8-4c41-7004-af7e-27b55522ddcd",
+  "image_to_3d_task": "019e27a8-b2a0-7026-9aa4-840a932544a6",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly tall jagged ice spike rising from snow, narrow pointed top, faceted surface catching cold light, pale blue translucency, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

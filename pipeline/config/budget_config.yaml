@@ -1,0 +1,6 @@
+total_credit_limit: 1800
+observed_total_credits: 1575
+retry_cap_per_asset: 3
+forest_credit_limit: 800
+snow_credit_limit: 600
+volcano_credit_limit: 400

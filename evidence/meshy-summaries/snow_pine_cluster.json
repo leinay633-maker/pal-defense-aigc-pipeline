@@ -1,0 +1,8 @@
+{
+  "asset": "snow_pine_cluster",
+  "text_to_image_task": "019e2795-f44e-722c-add1-c678449fe2ea",
+  "image_to_3d_task": "019e2796-8b89-795a-bef3-3296e2fa4a5f",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly three small snow-covered fir trees grouped together, varied heights, snow-caked branches, single combined snow base, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

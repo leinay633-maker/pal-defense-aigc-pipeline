@@ -1,0 +1,8 @@
+{
+  "asset": "charred_pine_dead",
+  "text_to_image_task": "019e298e-1196-7563-8ba9-9195aaca2013",
+  "image_to_3d_task": "019e2994-f4b7-7dac-bbe6-f76a16aeb04a",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly charred dead pine tree, blackened twisted trunk, brittle bare branches, glowing ember cracks at base, no leaves, smoke wisps drifting up, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

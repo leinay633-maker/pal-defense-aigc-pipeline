@@ -1,0 +1,8 @@
+{
+  "asset": "lava_boulder_large",
+  "text_to_image_task": "019e298d-fa2c-7562-b305-3d59ee6120a9",
+  "image_to_3d_task": "019e2990-933d-7e81-8d9f-6c4bb6238b7e",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly large basalt boulder with lava cracks, dark volcanic rock surface, glowing orange-red molten fissures running through, charred edges, slight heat shimmer, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

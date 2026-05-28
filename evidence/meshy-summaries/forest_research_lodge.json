@@ -1,0 +1,8 @@
+{
+  "asset": "forest_research_lodge",
+  "text_to_image_task": "019e24fe-c22f-7c63-b7da-38869d479b26",
+  "image_to_3d_task": "019e24fe-fd5b-7bf9-94d6-6adf137a4aa7",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly forest research lodge for a creature survival tower defense camp, small wooden cabin on mossy stone base, teal sci-fi energy panels, small antenna, solar plate, vines, warm window lights, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

@@ -1,0 +1,8 @@
+{
+  "asset": "snow_boulder_large",
+  "text_to_image_task": "019e279f-1bf3-7fd9-b46c-891cf86a33a1",
+  "image_to_3d_task": "019e279f-aa61-701c-9532-40aa9d716672",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly large rounded boulder mostly covered in snow, gray stone visible on shadowed underside, snowdrift piled on top, mossy crevices peeking through, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

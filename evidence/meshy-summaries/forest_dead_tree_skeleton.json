@@ -1,0 +1,8 @@
+{
+  "asset": "forest_dead_tree_skeleton",
+  "text_to_image_task": "019e2b0a-5d39-70fc-95cf-23169d9e30dd",
+  "image_to_3d_task": "019e2b0c-5b7a-7c4d-8703-f358f0d5a321",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly dead leafless tree skeleton, dark twisted bare branches reaching up, peeling gray bark, hollow trunk with exposed dead wood, fungal growth at base, dramatic silhouette, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

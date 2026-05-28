@@ -1,0 +1,8 @@
+{
+  "asset": "forest_birch_cluster",
+  "text_to_image_task": "019e2a8f-33a4-7482-92ea-f020ce87c4ec",
+  "image_to_3d_task": "019e2aae-b5bc-7766-95cf-3aa22c07c703",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly cluster of three white birch trees, distinctive white bark with black streaks, slender straight trunks, sparse golden-green leafy canopy, single grass base, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

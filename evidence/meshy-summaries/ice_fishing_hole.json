@@ -1,0 +1,8 @@
+{
+  "asset": "ice_fishing_hole",
+  "text_to_image_task": "019e27cb-e1c5-7f1c-89a7-00bfbef12ec9",
+  "image_to_3d_task": "019e27cc-6ee7-7f43-9835-453809ef1f66",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly circular hole carved in cracked ice surface, dark water visible inside, small wooden ice-fishing rod planted in snow beside hole, tackle box with frost coating, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

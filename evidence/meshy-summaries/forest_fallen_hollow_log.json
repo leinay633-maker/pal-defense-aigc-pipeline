@@ -1,0 +1,8 @@
+{
+  "asset": "forest_fallen_hollow_log",
+  "text_to_image_task": "019e2a8f-5eed-748a-9606-49dbd81d7e2f",
+  "image_to_3d_task": "019e2aae-e6bd-7ac8-a398-b1661b49fc5e",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly fallen hollow tree log covered in moss, thick horizontal trunk with hollow opening at one end, thick moss carpet on top, small mushrooms sprouting from bark, exposed wood grain inside hollow, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

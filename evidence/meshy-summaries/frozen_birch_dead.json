@@ -1,0 +1,8 @@
+{
+  "asset": "frozen_birch_dead",
+  "text_to_image_task": "019e2799-6a1c-7e89-9eb3-a96459a6a4d3",
+  "image_to_3d_task": "019e2799-f764-7e44-bfd0-963cb6f8dea2",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly leafless birch tree skeleton, peeling white bark with black streaks, gnarled bare branches reaching up, icicles hanging from branch tips, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

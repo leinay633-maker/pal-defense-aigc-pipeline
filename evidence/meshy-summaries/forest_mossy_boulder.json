@@ -1,0 +1,8 @@
+{
+  "asset": "forest_mossy_boulder",
+  "text_to_image_task": "019e2a8f-4e4d-7484-9014-002d788d8199",
+  "image_to_3d_task": "019e2aae-d3f4-7767-9881-4e5b4f9b991d",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly large rounded boulder covered in moss and lichen, gray stone visible on shadowed underside, thick green moss carpet on top, small ferns sprouting from cracks, weathered surface, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

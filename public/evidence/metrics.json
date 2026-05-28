@@ -1,0 +1,13 @@
+{
+  "totalAssets": 53,
+  "succeededAssets": 53,
+  "failedAssets": 0,
+  "totalCredits": 1575,
+  "averageCredits": 29.7,
+  "byTheme": {
+    "forest": 25,
+    "snow": 18,
+    "volcano": 10
+  },
+  "generatedAt": "2026-05-28T16:13:34.788Z"
+}

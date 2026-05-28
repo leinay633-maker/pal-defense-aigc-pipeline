@@ -1,0 +1,8 @@
+{
+  "asset": "forest_giant_fern",
+  "text_to_image_task": "019e2a8f-3c57-7de9-9ec3-66450c2d9003",
+  "image_to_3d_task": "019e2aae-bf65-7ac7-94de-4fdba0d93725",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly oversized stylized forest fern, large arching fronds with detailed leaflets, deep green color with brighter highlights at tips, curled new growth at center, low ground prop, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

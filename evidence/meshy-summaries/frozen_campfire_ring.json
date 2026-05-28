@@ -1,0 +1,8 @@
+{
+  "asset": "frozen_campfire_ring",
+  "text_to_image_task": "019e27c9-1fdc-7dfd-b3d9-1094158aea19",
+  "image_to_3d_task": "019e27c9-6ddb-7e31-9385-a12f428f43ce",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly stone fire ring with extinguished charred logs encased in ice, icicles wrapping around logs, snow piled around stones, faint blue ember glow under ice, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

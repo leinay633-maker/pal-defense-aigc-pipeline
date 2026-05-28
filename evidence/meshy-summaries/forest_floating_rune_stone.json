@@ -1,0 +1,8 @@
+{
+  "asset": "forest_floating_rune_stone",
+  "text_to_image_task": "019e2b0a-ad8c-7d30-b17d-94ea8acf4212",
+  "image_to_3d_task": "019e2b0c-9406-7c52-a23d-3738782b63c5",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly mystical floating rune stone, weathered carved stone tablet hovering above the ground, glowing teal pal-themed runes etched into surface, small stone fragments floating around it, faint magical glow underneath, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

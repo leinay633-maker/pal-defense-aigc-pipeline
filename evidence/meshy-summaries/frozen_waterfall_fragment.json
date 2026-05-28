@@ -1,0 +1,8 @@
+{
+  "asset": "frozen_waterfall_fragment",
+  "text_to_image_task": "019e27a5-d193-7f1b-b567-3b2270d6453e",
+  "image_to_3d_task": "019e27a6-23a1-7f24-8fd8-ea76836930ec",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly vertical chunk of frozen waterfall ice, blue-white striated layers, partially translucent, icicle drips along bottom edge, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

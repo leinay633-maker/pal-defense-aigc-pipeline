@@ -1,0 +1,8 @@
+{
+  "asset": "obsidian_spike_jagged",
+  "text_to_image_task": "019e298e-053b-7c8e-b96b-1b113e6f041b",
+  "image_to_3d_task": "019e2994-ec5e-7ef2-b7bf-87bc91eafca2",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly tall jagged obsidian spike rising from ash, glossy black volcanic glass, sharp angular facets reflecting hot red light, narrow pointed top, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

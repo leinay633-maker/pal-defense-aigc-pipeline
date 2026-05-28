@@ -1,0 +1,8 @@
+{
+  "asset": "forest_old_well",
+  "text_to_image_task": "019e2b0a-a15d-7bf8-ae26-e8264ce7d793",
+  "image_to_3d_task": "019e2b0c-8ad6-7c51-beae-d694f1d8a627",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly old stone well with wooden roof and bucket, mossy stone circular base, slanted wooden shingle roof on wooden support beams, hanging wooden bucket on rope, vines climbing on stones, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

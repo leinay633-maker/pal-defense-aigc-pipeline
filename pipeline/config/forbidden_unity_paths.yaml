@@ -1,0 +1,9 @@
+# Paths protected by the Unity integration quality gate.
+forbidden:
+  - "ProjectSettings/TagManager.asset"
+  - "Assets/AnimatorController/"
+  - "Assets/Scripts/Assembly-CSharp/MonsterType.cs"
+  - "Assets/GameObject/"
+allowed_prefix:
+  - "Assets/_PalReskin/MeshyImported/"
+  - "Assets/_PalReskin/GeneratedMaterials/"

@@ -1,0 +1,8 @@
+{
+  "asset": "obsidian_forge",
+  "text_to_image_task": "019e298d-edf2-70dd-aa13-715e8b828e27",
+  "image_to_3d_task": "019e2990-8adc-7e81-82fe-7257db1fea31",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly obsidian forge for a creature survival tower defense lava camp, black obsidian forge structure with bright orange-red molten core, sparks flying upward, anvil on basalt plinth, molten lava conduits glowing fiery red, smoke wisps, fire-rune carvings on stone base, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

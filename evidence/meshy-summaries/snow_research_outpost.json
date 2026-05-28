@@ -1,0 +1,8 @@
+{
+  "asset": "snow_research_outpost",
+  "text_to_image_task": "019e27aa-4f60-755b-8b37-a9ce5e65eb63",
+  "image_to_3d_task": "019e27aa-dd54-70af-b649-01e3431a718f",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly snow research outpost for a creature survival tower defense winter camp, small wooden cabin half-buried in snowdrift on icy stone base, teal sci-fi energy panels glowing through frost, small antenna with icicles, solar plate dusted with snow, frozen vines, warm window lights cutting through blizzard haze, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

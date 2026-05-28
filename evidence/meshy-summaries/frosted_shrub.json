@@ -1,0 +1,8 @@
+{
+  "asset": "frosted_shrub",
+  "text_to_image_task": "019e279b-af64-7f4a-96a4-7b660497498b",
+  "image_to_3d_task": "019e279c-bd3f-736b-9667-1a4cc34522dd",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly small round bush coated in frost and snow, sparse twigs sticking out, white-crystalline surface, low ground prop, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

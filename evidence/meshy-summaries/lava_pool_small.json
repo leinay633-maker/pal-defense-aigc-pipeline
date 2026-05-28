@@ -1,0 +1,8 @@
+{
+  "asset": "lava_pool_small",
+  "text_to_image_task": "019e298e-1d33-7563-9702-c6d94df6a912",
+  "image_to_3d_task": "019e2994-fe43-7ef3-93d7-238bdaa53d30",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly small pool of glowing lava in stone basin, bright orange-red molten surface with cooling black crust patches, raised rocky rim, faint heat shimmer above, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

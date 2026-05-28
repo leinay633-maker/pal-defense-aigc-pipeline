@@ -1,0 +1,8 @@
+{
+  "asset": "lava_river_segment",
+  "text_to_image_task": "019e298e-2903-7566-b74c-4612aff0b2c7",
+  "image_to_3d_task": "019e2995-06bc-7dad-8910-e4ee3d59e58d",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly segment of flowing lava river, bright orange molten channel between dark cooled rock banks, swirling surface, tileable horizontal form, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

@@ -1,0 +1,8 @@
+{
+  "asset": "frozen_lantern_post",
+  "text_to_image_task": "019e27bb-455c-7d2f-97eb-4dedf4f809e6",
+  "image_to_3d_task": "019e27bb-d72d-7d3c-a095-fcf40b6ba463",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly wooden lantern post coated in frost, hanging glass lantern with teal cold-flame energy inside, icicles hanging from crossbeam, snow piled at base, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

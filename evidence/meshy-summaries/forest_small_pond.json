@@ -1,0 +1,8 @@
+{
+  "asset": "forest_small_pond",
+  "text_to_image_task": "019e2b0a-d4c5-7d30-af44-6c543d115bac",
+  "image_to_3d_task": "019e2b0c-9dfb-7db1-81f1-b07345a2c762",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly small natural forest pond, clear blue-green water surface with subtle ripples, rocky and mossy rim, lily pads floating on top, reeds growing at edge, low oval shape, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

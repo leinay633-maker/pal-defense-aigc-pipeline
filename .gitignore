@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vite/
+.playwright-cli/
+dev-server*.log
+preview*.log
+*.local
+__pycache__/
+*.pyc
+.pytest_cache/
+pipeline/reports/
+tmp/

@@ -1,0 +1,8 @@
+{
+  "asset": "ember_pile",
+  "text_to_image_task": "019e298e-4afa-7108-867d-eae7b83c8ba6",
+  "image_to_3d_task": "019e2995-1f4e-7279-a5fc-e0a76a1fcc82",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly pile of glowing embers and charred wood, scattered red-orange ember chunks, blackened wood fragments, faint smoke wisps, low ground-hugging form, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

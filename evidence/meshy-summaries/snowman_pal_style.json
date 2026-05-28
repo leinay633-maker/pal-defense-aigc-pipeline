@@ -1,0 +1,8 @@
+{
+  "asset": "snowman_pal_style",
+  "text_to_image_task": "019e27c4-c18b-7bc0-ac19-d77fea9e6464",
+  "image_to_3d_task": "019e27c6-81bb-7153-bd29-0ef7fe313a20",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly stylized chubby snowman in cartoon Pal style, big round head with simple smile, carrot nose, oversized woolen hat in teal color, twig arms, snowy round base, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

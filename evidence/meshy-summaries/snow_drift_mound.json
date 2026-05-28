@@ -1,0 +1,8 @@
+{
+  "asset": "snow_drift_mound",
+  "text_to_image_task": "019e27bd-f40e-79e9-ae67-e60aee877664",
+  "image_to_3d_task": "019e27be-4348-7aab-b93e-fda8a5e78bcd",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly smooth rounded snow mound with windswept ripple texture, soft curves, slight blue shadow on lee side, low ground-hugging form, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

@@ -1,0 +1,8 @@
+{
+  "asset": "forest_pal_nest",
+  "text_to_image_task": "019e2a8f-6f4d-714d-8a76-a3614e7ccb7b",
+  "image_to_3d_task": "019e2ac4-a2b2-7f5c-b74b-e4cf57e9f9fb",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly woven twig nest with three stylized Pal eggs, circular twig-woven nest on mossy stump base, three large speckled eggs in cream and pale blue colors, scattered feathers, ground-level prop, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

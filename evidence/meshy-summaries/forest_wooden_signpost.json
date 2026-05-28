@@ -1,0 +1,8 @@
+{
+  "asset": "forest_wooden_signpost",
+  "text_to_image_task": "019e2b0a-8496-7d28-b373-658a00620fa3",
+  "image_to_3d_task": "019e2b0c-789e-7c50-b020-b320bc165e5f",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly weathered wooden signpost with pal-themed carvings, tall vertical wooden post with carved pal creature face at top, hanging wooden plank arrows pointing different directions, moss on lower base, rope wrappings, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

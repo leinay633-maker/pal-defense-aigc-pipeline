@@ -1,0 +1,8 @@
+{
+  "asset": "magma_crystal_cluster",
+  "text_to_image_task": "019e298e-3f7a-756e-8701-8ee18eeab5c5",
+  "image_to_3d_task": "019e2995-16fa-7ef9-a4df-7121cd2f60f0",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly cluster of glowing magma crystals erupting from cracked rock, red-orange translucent shards with internal fire glow, sharp angular forms of varying heights, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}

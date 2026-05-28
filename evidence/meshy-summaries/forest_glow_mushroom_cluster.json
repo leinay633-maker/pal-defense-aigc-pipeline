@@ -1,0 +1,8 @@
+{
+  "asset": "forest_glow_mushroom_cluster",
+  "text_to_image_task": "019e2a8f-4576-70ae-a266-42c3796a64fb",
+  "image_to_3d_task": "019e2aae-caa0-7627-a397-7368ceefa166",
+  "status": "SUCCEEDED",
+  "consumed_credits": 30,
+  "prompt": "single game-ready 3D asset concept, stylized low-poly cluster of oversized whimsical glowing mushrooms in fantasy Pal style, varied cap sizes and heights, soft teal and pink bioluminescent glow underneath caps, white speckled tops, slender white stems, mossy base, clear full object, orthographic three-quarter view, centered, isolated, neutral background, no text, no people, no logo, readable silhouette"
+}
