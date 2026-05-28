@@ -1,6 +1,6 @@
-# Pal Defense AIGC Pipeline Portfolio
+# Pal Defense AIGC Pipeline
 
-这是一个面向求职和技术面试的 AIGC 游戏资产生产 Pipeline 项目作品集。项目背景是 Unity 塔防 Demo《帕鲁保卫战》：我把资产清单、LLM Prompt、Meshy、Blender、Unity Editor 脚本、质量门槛、人工 Review 和 Git 追溯串成一条可验证的工程流程。
+这是一个 AIGC 游戏资产生产 Pipeline 项目。项目背景是 Unity 塔防 Demo《帕鲁保卫战》：我把资产清单、LLM Prompt、Meshy、Blender、Unity Editor 脚本、质量门槛、人工 Review 和 Git 追溯串成一条可验证的工程流程。
 
 公开仓库不上传完整 Unity 工程和大体积第三方模型，而是上传能验证 Pipeline 事实的轻量证据：53 个 Meshy task summary、资产预览图、source inventory hash、Review Dashboard，以及一个可本地运行的 dry-run orchestrator。
 
@@ -25,7 +25,7 @@
 | `evidence/previews/` | 公开预览图证据 |
 | `evidence/source-file-inventory.json` | 本地 Unity 源资产文件清单、大小和 hash |
 | `pipeline/config/` | 资产清单、预算、Prompt 模板、Unity 禁止清单 |
-| `pipeline/orchestrator.py` | 作品集安全版 dry-run 状态机 |
+| `pipeline/orchestrator.py` | 公开版 dry-run 状态机 |
 | `pipeline/gates.py` | 自动质量门槛检查 |
 | `docs/evidence-map.md` | 知识库主张到公开文件的映射 |
 
@@ -59,11 +59,11 @@ asset manifest
   -> report
 ```
 
-公开版 `pipeline/orchestrator.py` 不调用外部 API，也不写 Unity 工程。它只用公开证据复现 Pipeline 的状态机、预算守卫、artifact manifest 和自动 gate，方便技术评审在本地快速验证架构。
+公开版 `pipeline/orchestrator.py` 不调用外部 API，也不写 Unity 工程。它只用公开证据复现 Pipeline 的状态机、预算守卫、artifact manifest 和自动 gate，方便在本地快速验证架构。
 
 ## 表述边界
 
 - 这是个人 Demo / 技术验证，不是商业发行项目。
 - 我没有训练 3D 生成模型，重点是把现成 AIGC 能力工程化接入工具链。
-- 公开仓库里的 dry-run Pipeline 是 portfolio-safe sample，用来验证架构和数据流，不伪装成原始生产脚本。
+- 公开仓库里的 dry-run Pipeline 是 public dry-run sample，用来验证架构和数据流，不伪装成原始生产脚本。
 - 完整 Unity 工程、大体积 build、视频素材和第三方模型源文件不放入公开仓库。

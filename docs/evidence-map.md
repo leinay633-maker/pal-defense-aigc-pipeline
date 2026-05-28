@@ -1,6 +1,6 @@
 # Evidence Map
 
-这份文件把面试知识库里的关键主张映射到公开仓库中可检查的证据。公开仓库只保留轻量证据和可运行样例，不上传完整 Unity 工程。
+这份文件把项目说明里的关键主张映射到公开仓库中可检查的证据。公开仓库只保留轻量证据和可运行样例，不上传完整 Unity 工程。
 
 | 知识库主张 | 公开证据 |
 | --- | --- |
@@ -31,4 +31,3 @@ Dry-run complete: 53/53 assets committed, 1575/1800 credits.
 ```
 
 生成的 `pipeline/reports/quality_gate_report.json` 可以逐资产检查每一道自动 gate。
-

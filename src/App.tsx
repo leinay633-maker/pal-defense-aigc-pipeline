@@ -96,13 +96,13 @@ function App() {
     <main className="app-shell">
       <header className="topbar">
         <div>
-          <p className="eyebrow">Unity AIGC Asset Pipeline Portfolio</p>
+          <p className="eyebrow">Unity AIGC Asset Pipeline</p>
           <h1>Pal Defense AIGC Pipeline</h1>
           <p className="subtitle">53 Meshy assets, 1,575 credits, three biome batches, and a dry-run orchestration proof.</p>
         </div>
-        <div className="topbar-actions" aria-label="Portfolio links">
+        <div className="topbar-actions" aria-label="Project links">
           <a href="evidence/metrics.json">Evidence JSON</a>
-          <a href="https://github.com/leinay633-maker/pal-defense-aigc-pipeline-portfolio">GitHub</a>
+          <a href="https://github.com/leinay633-maker/pal-defense-aigc-pipeline">GitHub</a>
           <div className="build-meta">
             <span>Generated data</span>
             <strong>{new Date(pipelineSummary.generatedAt).toLocaleDateString('en-US')}</strong>
